@@ -36,3 +36,52 @@
     transform: rotate(360deg);
   }
 }
+
+*{
+  box-sizing: border-box;
+}
+.Registration, .Login, .Comment, .Greet, .Footer{
+  border: 5px solid blue;
+  margin: 10px;
+  padding: 10px;
+  background-color: olivedrab;
+  border-radius: 4px;
+  width: 50%;
+}
+
+label, p, .about{
+  display: inline-block;
+  font-size: medium;
+   float: left;
+   color: black;
+   clear: both;
+}
+input{
+ border: 1px solid #000;
+  margin: 0px 10px 0 10px;
+}
+p, .Radios{
+   margin: 10px;
+   padding: 10px;
+   
+}
+textarea{
+  padding: 10px;
+  margin: 10px;
+}
+
+h2, button{
+   color: black;
+   background-color: brown;
+   font-size: large;
+   margin: 10px;
+   padding: 10px;
+}
+
+a, .copy-right{
+  font-size: small;
+  padding-left: 50px;
+}
+.Footer {
+  width: 95%;
+}
